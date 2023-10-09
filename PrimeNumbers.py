@@ -5,7 +5,6 @@ def isPrime(n):
         if n%i==0:
             return False
     return True
-n=int(input())
-for i in range(1,n+1):
+for i in range(1,int(input())+1):
     if isPrime(i):
-        print(i,end=" ")
+        print(i)
